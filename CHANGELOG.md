@@ -28,3 +28,5 @@
 > Changes from 1.0.11 were rolled into this since I forgot to update the package file for the release and NPM did not like me trying to write another version 1.0.10.
 ## 1.0.13
 > Introduced socket-badges.yml into the workflows to automatically update the Socket.dev badge on the README without having to remember to manually chnage it on each release.
+## 1.0.14
+> Update the socket-badges to utilize the correct branch.
