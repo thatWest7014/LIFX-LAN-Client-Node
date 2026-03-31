@@ -1,6 +1,6 @@
 {
   "name": "@west7014/lifx-lan",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a simple package that aims to bring all available features to LIFX devices over LAN with some API-based features as well",
   "keywords": [
     "lifx",
@@ -36,7 +36,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "axios": ">=1.0.0"
+    "axios": "^1.14.0"
   },
   "peerDependencies": {
     "dotenv": "16.4.5"

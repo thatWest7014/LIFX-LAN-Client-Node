@@ -1,11 +1,12 @@
 # lifx-lan
+[![Socket Badge](https://badge.socket.dev/npm/package/@west7014/lifx-lan/1.0.2)](https://badge.socket.dev/npm/package/@west7014/lifx-lan/1.0.2)
 
 Control LIFX lights directly over your local network using the [LIFX LAN protocol](https://lan.developer.lifx.com/). No cloud required for most features.
 
 ## Installation
 
 ```bash
-npm install lifx-lan axios
+npm install lifx-lan
 ```
 
 If you want to load your LIFX auth token from a `.env` file rather than hard-coding it:

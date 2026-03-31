@@ -1,3 +1,4 @@
+/// <reference types="node" />
 interface HSBK {
     hue: number;
     saturation: number;
