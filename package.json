@@ -1,6 +1,6 @@
 {
   "name": "@west7014/lifx-lan",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "a simple package that aims to bring all available features to LIFX devices over LAN with some API-based features as well",
   "keywords": [
     "lifx",

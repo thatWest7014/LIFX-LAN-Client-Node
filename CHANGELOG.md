@@ -24,3 +24,5 @@
 > Added a package-lock.json file to fix workflow issues alongside a .gitignore to ignore the node_modules directory.
 ## 1.0.11
 > Added the 'readme' key to the package.json file to point to the README.md file. Hopefully this resolves the issue of the NPM page not showing the README and stating that there is no such file.
+## 1.0.12
+> Changes from 1.0.11 were rolled into this since I forgot to update the package file for the release and NPM did not like me trying to write another version 1.0.10.
