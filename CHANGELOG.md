@@ -22,3 +22,5 @@
 > Added test.js alongside a test command in the package to resolve CI test issues. Also updates the Workflow from Nova 22 to Node 24.
 ## 1.0.10: Workflow changes
 > Added a package-lock.json file to fix workflow issues alongside a .gitignore to ignore the node_modules directory.
+## 1.0.11
+> Added the 'readme' key to the package.json file to point to the README.md file. Hopefully this resolves the issue of the NPM page not showing the README and stating that there is no such file.

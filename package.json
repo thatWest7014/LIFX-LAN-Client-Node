@@ -24,6 +24,7 @@
     "./README.md",
     "./CHANGELOG.md"
   ],
+  "readme": "./README.md",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
