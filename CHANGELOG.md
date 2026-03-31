@@ -26,3 +26,5 @@
 > Added the 'readme' key to the package.json file to point to the README.md file. Hopefully this resolves the issue of the NPM page not showing the README and stating that there is no such file.
 ## 1.0.12
 > Changes from 1.0.11 were rolled into this since I forgot to update the package file for the release and NPM did not like me trying to write another version 1.0.10.
+## 1.0.13
+> Introduced socket-badges.yml into the workflows to automatically update the Socket.dev badge on the README without having to remember to manually chnage it on each release.

@@ -1,0 +1,22 @@
+name: Update Socket.dev Badge
+on:
+  release:
+    types: [published]
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Socket.dev badge version
+        run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          sed -i "s|badge.socket.dev/npm/package/@west7014/lifx-lan/[0-9.]*|badge.socket.dev/npm/package/@west7014/lifx-lan/$VERSION|g" README.md
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update Socket.dev badge to $VERSION" || echo "No changes to commit"
+          git push
