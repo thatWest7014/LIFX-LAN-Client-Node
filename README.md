@@ -1,5 +1,5 @@
 # lifx-lan
-[![Socket Badge](https://badge.socket.dev/npm/package/@west7014/lifx-lan/1.0.2)](https://badge.socket.dev/npm/package/@west7014/lifx-lan/1.0.2)
+[![Socket Badge](https://badge.socket.dev/npm/package/@west7014/lifx-lan/1.0.14)](https://badge.socket.dev/npm/package/@west7014/lifx-lan/1.0.14)
 
 Control LIFX lights directly over your local network using the [LIFX LAN protocol](https://lan.developer.lifx.com/). No cloud required for most features.
 
