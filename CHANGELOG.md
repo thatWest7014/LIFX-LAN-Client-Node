@@ -20,3 +20,5 @@
 > Added a GitHub workflow to publish to NPM alongside GitHub Immutable releases.
 ## 1.0.9: Workflow + CI Test Changes
 > Added test.js alongside a test command in the package to resolve CI test issues. Also updates the Workflow from Nova 22 to Node 24.
+## 1.0.10: Workflow changes
+> Added a package-lock.json file to fix workflow issues alongside a .gitignore to ignore the node_modules directory.
