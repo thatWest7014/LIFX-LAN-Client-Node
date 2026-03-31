@@ -14,3 +14,7 @@
 > Pinned Axios at 1.14.0 instead of >=1.0.0 to keep a newer version while avoiding Axios 1.14.1. Index.d.ts was changed to include a reference for Node.js. And the Readme was updated to display the socket badge of supply chain vulnerabilties.
 ## 1.0.6: Axios security change
 > Updated Axios to be at 1.14.0 or higher without install 1.14.1 due to the security events that occured late last night.
+## 1.0.7: (Correctly) Pinned Axios to 1.14.0
+> Pinned axios correctly this time to 1.14.0 to avoid potential security risks that come with 1.14.1 and potentially future releases for the time being. The pin will be adjusted when I can reasonably confirm that they have control over their NPM account again.
+## 1.0.8: Workflows and Security changes
+> Added a GitHub workflow to publish to NPM alongside GitHub Immutable releases.
