@@ -23,7 +23,7 @@
     "LICENSE",
     "./README.md"
   ],
-  "license": "MIT",
+  "license": "MPL-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thatWest7014/LIFX-LAN-Client-Node.git"
