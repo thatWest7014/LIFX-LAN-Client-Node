@@ -18,3 +18,5 @@
 > Pinned axios correctly this time to 1.14.0 to avoid potential security risks that come with 1.14.1 and potentially future releases for the time being. The pin will be adjusted when I can reasonably confirm that they have control over their NPM account again.
 ## 1.0.8: Workflows and Security changes
 > Added a GitHub workflow to publish to NPM alongside GitHub Immutable releases.
+## 1.0.9: Workflow + CI Test Changes
+> Added test.js alongside a test command in the package to resolve CI test issues. Also updates the Workflow from Nova 22 to Node 24.

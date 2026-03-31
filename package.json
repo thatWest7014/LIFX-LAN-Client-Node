@@ -1,6 +1,6 @@
 {
   "name": "@west7014/lifx-lan",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "a simple package that aims to bring all available features to LIFX devices over LAN with some API-based features as well",
   "keywords": [
     "lifx",
@@ -33,7 +33,7 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test.js"
   },
   "dependencies": {
     "axios": "1.14.0"
