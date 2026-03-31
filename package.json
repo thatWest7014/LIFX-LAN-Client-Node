@@ -1,0 +1,49 @@
+{
+  "name": "lifx-lan",
+  "version": "1.0.0",
+  "description": "a simple package that aims to bring all available features to LIFX devices over LAN with some API-based features as well",
+  "keywords": [
+    "lifx",
+    "lan",
+    "smart-light",
+    "iot",
+    "home-automation"
+  ],
+  "author": {
+    "email": "west701497@gmail.com",
+    "name": "Katt",
+    "url": "https://github.com/thatWest7014"
+  },
+  "contributors": [
+    "simplyKit (https://github.com/simplyKit)"
+  ],
+  "files": [
+    "./index.js",
+    "./index.d.ts",
+    "LICENSE",
+    "./README.md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thatWest7014/LIFX-LAN-Client-Node"
+  },
+  "type": "commonjs",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "axios": ">=1.0.0",
+    "dotenv": "16.4.5"
+  },
+  "peerDependenciesMeta": {
+    "dotenv": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
